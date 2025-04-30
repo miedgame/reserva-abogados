@@ -1,0 +1,72 @@
+{
+    "fechas": [
+        {
+            "fecha": "2025-04-15",
+            "dia": "Lunes",
+            "horarios": [
+                {
+                    "hora": "09:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "10:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "11:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "12:00",
+                    "estado": "disponible"
+                },
+                {
+                    "hora": "14:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "15:00",
+                    "estado": "disponible"
+                },
+                {
+                    "hora": "16:00",
+                    "estado": "reservado"
+                }
+            ]
+        },
+        {
+            "fecha": "2025-04-16",
+            "dia": "Martes",
+            "horarios": [
+                {
+                    "hora": "09:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "10:00",
+                    "estado": "disponible"
+                },
+                {
+                    "hora": "11:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "12:00",
+                    "estado": "reservado"
+                },
+                {
+                    "hora": "14:00",
+                    "estado": "disponible"
+                },
+                {
+                    "hora": "15:00",
+                    "estado": "disponible"
+                },
+                {
+                    "hora": "16:00",
+                    "estado": "disponible"
+                }
+            ]
+        }
+    ]
+}

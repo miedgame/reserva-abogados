@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reserva - Estudio de Abogados</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Estudio Jurídico - Sistema de Reserva de Citas</h1>
+        </header>
+        <main>
+            <section id="instrucciones">
+                <h2>Bienvenido al sistema de reserva de citas</h2>
+                <p>Por favor, seleccione un horario disponible y complete el formulario para
+                    agendar su consulta legal.</p>
+            </section>
+            <section id="calendario">
+                <h2>Horarios Disponibles</h2>
+                <div id="calendario-container">
+                    <!-- El calendario se cargará dinámicamente con JavaScript -->
+                    <p>Cargando horarios disponibles...</p>
+                </div>
+            </section>
+            <section id="formulario-reserva">
+                <h2>Formulario de Reserva</h2>
+                <form id="reservaForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono de contacto:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivo">Motivo de la consulta:</label>
+                        <textarea id="motivo" name="motivo" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha">Fecha seleccionada:</label>
+                        <input type="text" id="fecha" name="fecha" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="hora">Hora seleccionada:</label>
+                        <input type="text" id="hora" name="hora" readonly>
+                    </div>
+                    <button type="submit" id="btnReservar" disabled>Reservar hora</button>
+                </form>
+                <div id="mensaje-resultado" class="oculto"></div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Estudio Jurídico - Todos los derechos reservados</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
