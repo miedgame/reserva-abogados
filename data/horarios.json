@@ -6,15 +6,15 @@
             "horarios": [
                 {
                     "hora": "09:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "10:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "11:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "12:00",
@@ -22,7 +22,7 @@
                 },
                 {
                     "hora": "14:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "15:00",
@@ -30,7 +30,7 @@
                 },
                 {
                     "hora": "16:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 }
             ]
         },
@@ -40,7 +40,7 @@
             "horarios": [
                 {
                     "hora": "09:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "10:00",
@@ -48,11 +48,11 @@
                 },
                 {
                     "hora": "11:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "12:00",
-                    "estado": "reservado"
+                    "estado": "disponible"
                 },
                 {
                     "hora": "14:00",

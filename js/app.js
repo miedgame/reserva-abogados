@@ -11,7 +11,7 @@ const API_RESERVAR = 'api/reservar.php';
 // Cargar horarios disponibles al cargar la página
 document.addEventListener('DOMContentLoaded', cargarHorarios);
 // Manejar envío del formulario
-formularioReserva.addEventListener('submit', realizarReserva);
+// formularioReserva.addEventListener('submit', realizarReserva);
 /**
 * Función para cargar los horarios disponibles desde la API
 */
@@ -138,7 +138,8 @@ function realizarReserva(event) {
         telefono: formData.get('telefono'),
         motivo: formData.get('motivo'),
         fecha: formData.get('fecha'),
-        hora: formData.get('hora')
+        hora: formData.get('hora'),
+        amount: formData.get('amount')
     };
     // Deshabilitar botón para evitar envíos múltiples
     btnReservar.disabled = true;

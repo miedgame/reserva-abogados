@@ -112,7 +112,10 @@ function guardarReserva($datos)
             'motivo' => $datos['motivo'],
             'fecha' => $datos['fecha'],
             'hora' => $datos['hora'],
-            'fechaReserva' => date('Y-m-d H:i:s')
+            'fechaReserva' => date('Y-m-d H:i:s'),
+            'monto' => $datos['amount'], // Monto fijo de la reserva
+            'estatus_pago' => $datos['estatus_pago'], // Estado del pago
+            'transactionDate' => $datos['transactionDate'], // Fecha de la transacción
         ];
         // Verificar si el archivo de reservas existe
         if (file_exists($rutaArchivo)) {

@@ -45,6 +45,8 @@ function mostrarReservas(data) {
         <table class="reservas">
         <thead>
         <tr>
+            <td><b>ID Reserva<b></td>
+            <td><b>Estatus  del Pago<b></td>
             <td><b>Nombre<b></td>
             <td><b>Email</b></td>
             <td><b>Telefono</b></td>
@@ -59,6 +61,8 @@ function mostrarReservas(data) {
     
     data.data.forEach(reserva => {
         contenidoHTML += `<tr>`;
+        contenidoHTML += `<td>${reserva.id}</td>`;
+        contenidoHTML += `<td>${reserva.estatus_pago}</td>`;
         contenidoHTML += `<td>${reserva.nombre}</td>`;
         contenidoHTML += `<td>${reserva.email}</td>`;
         contenidoHTML += `<td>${reserva.telefono}</td>`;
